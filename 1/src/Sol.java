@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class Sol {
     public static void main(String[] args) {
         try {
-            File file = new File("input.txt");
+            File file = new File("1/input.txt");
             Scanner scanner = new Scanner(file);
             // int sol = partOne(scanner);
             int sol = partTwo(scanner);
